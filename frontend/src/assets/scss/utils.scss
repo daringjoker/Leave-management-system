@@ -1,0 +1,78 @@
+@for $i from 1 through 1920 {
+  $value: $i;
+  .hpx-#{$value} {
+    height: #{$value}px;
+  }
+  .min-hpx-#{$value} {
+    min-height: #{$value}px;
+  }
+  .max-hpx-#{$value} {
+    max-height: #{$value}px;
+  }
+  .wpx-#{$value} {
+    width: #{$value}px;
+  }
+  .min-wpx-#{$value} {
+    min-width: #{$value}px;
+  }
+  .max-wpx-#{$value} {
+    max-width: #{$value}px;
+  }
+}
+
+@for $i from 1 through 100 {
+  .hp-#{$i} {
+    height: #{$i* 1%};
+  }
+  .min-hp-#{$i} {
+    min-height: #{$i* 1%};
+  }
+  .max-hp-#{$i} {
+    max-height: #{$i* 1%};
+  }
+  .wp-#{$i} {
+    width: #{$i* 1%};
+  }
+  .min-wp-#{$i} {
+    min-width: #{$i* 1%};
+  }
+  .max-wp-#{$i} {
+    max-width: #{$i* 1%};
+  }
+  .hvh-#{$i} {
+    height: #{$i* 1vh};
+  }
+  .min-hvh-#{$i} {
+    min-height: #{$i* 1vh};
+  }
+  .max-hvh-#{$i} {
+    max-height: #{$i* 1vh};
+  }
+  .wvh-#{$i} {
+    width: #{$i* 1vh};
+  }
+  .min-wvh-#{$i} {
+    min-width: #{$i* 1vh};
+  }
+  .max-wvh-#{$i} {
+    max-width: #{$i* 1vh};
+  }
+  .hvw-#{$i} {
+    height: #{$i* 1vw};
+  }
+  .min-hvw-#{$i} {
+    min-height: #{$i* 1vw};
+  }
+  .max-hvw-#{$i} {
+    max-height: #{$i* 1vw};
+  }
+  .wvw-#{$i} {
+    width: #{$i* 1vw};
+  }
+  .min-wvw-#{$i} {
+    min-width: #{$i* 1vw};
+  }
+  .max-wvw-#{$i} {
+    max-width: #{$i* 1vw};
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "leavemanagementsystem",
+  "version": "1.0.0",
+  "description": "A leave management system developed to as a part of GAP (Leapfrog Technology) 2024",
+  "main": "index.ts",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "LMS",
+    "leave",
+    "management",
+    "system",
+    "employee"
+  ],
+  "author": "Pukar Giri (Daring Joker)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^9.1.1",
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
